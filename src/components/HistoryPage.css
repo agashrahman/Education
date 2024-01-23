@@ -1,0 +1,85 @@
+/* src/components/HistoryPage.css */
+.history-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .history-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .passage {
+    display: none;
+  }
+  
+  .visible {
+    display: block;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .quiz-container {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .options-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .option {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .option:hover {
+    background-color: #45a049;
+  }
+  
+  .selected {
+    background-color: #333;
+  }
+  
+  .next-button {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .next-button:hover {
+    background-color: #0077a3;
+  }
+  
+  .quiz-results {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .quiz-results p {
+    color: #333;
+  }
+  

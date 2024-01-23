@@ -1,0 +1,109 @@
+/* src/components/Home.css */
+.home-container {
+  background: linear-gradient(to right, #0f87d6, #071f29); /* Gradient background */
+  color: #fff; /* Text color */
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.content-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2em;
+  transition: color 0.3s ease; /* Hover effect */
+}
+
+nav a:hover {
+  color: #3498db;
+}
+
+.educational-resources {
+  margin-top: 30px;
+}
+
+.search-input,
+.category-select {
+  padding: 8px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.resource-list {
+  list-style: none;
+  padding: 0;
+}
+
+.resource-item {
+  margin-bottom: 10px;
+  background: #79b5dd;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background 0.3s ease; /* Hover effect */
+  color: black;
+}
+.resource-item>a {
+  color: black;
+  text-decoration: none;
+}
+.resource-item:hover {
+  background: #2980b9;
+}
+.resource-item>a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.HeadTitle{
+  color: #f2f2f2;
+  border: black 2px;
+}
+
+.search-input{
+  font-size: 10px;
+}
+.resource-item {
+  margin-bottom: 10px;
+  background: #79b5dd;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background 0.3s ease; /* Hover effect */
+  color: black;
+}
+
+.resource-item > a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s ease; /* Hover effect for link color */
+}
+
+.resource-item:hover {
+  background: #2980b9;
+}
+
+.resource-item:hover > a {
+  color: white;
+  text-decoration: none;
+}

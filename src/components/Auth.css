@@ -1,0 +1,106 @@
+/* src/components/Auth.css */
+.auth-container {
+    background: linear-gradient(to right, #3498db, #6dd5fa);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+}
+
+.auth-content {
+    width: 300px;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.home-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #3498db;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form>input {
+    width: 300px;
+    height: 20px;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 16px;
+    border: 1px solid #3498db;
+    border-radius: 6px;
+    font-size: 1.2em;
+    color: #333;
+    transition: border-color 0.3s ease;
+}
+
+input:focus,
+input:hover {
+    border-color: #2980b9;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+Link {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #2980b9;
+    font-weight: bold;
+    font-size: 1.2em;
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+Link.active {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+Link:hover.active {
+    color: #21618c;
+}
